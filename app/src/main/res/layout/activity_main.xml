@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/tvSaludo"
+        android:id="@+id/tvBienvenido"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Bienvenido"
@@ -22,13 +22,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Su nombre por favor"
         android:inputType="textPersonName"
-        android:text="Su nombre por favor"
-        app:layout_constraintBottom_toTopOf="@+id/swPref"
+        app:layout_constraintBottom_toTopOf="@+id/switchPreferencias"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.149"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvSaludo"
+        app:layout_constraintTop_toBottomOf="@+id/tvBienvenido"
         app:layout_constraintVertical_bias="0.545" />
 
     <Button
@@ -42,7 +42,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Switch
-        android:id="@+id/swPref"
+        android:id="@+id/switchPreferencias"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
